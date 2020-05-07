@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                              xmlns:app="http://schemas.android.com/apk/res-auto"
                                              xmlns:tools="http://schemas.android.com/tools"
                                              android:layout_width="match_parent"
                                              android:layout_height="match_parent"
-                                             android:background="@mipmap/corn"
                                              android:id="@+id/coordinatorLayout"
                                              tools:context=".LaunchActivity">
 
@@ -14,7 +13,7 @@
             android:layout_width="402dp"
             android:layout_height="205dp"
             android:textSize="14sp"
-            android:textColor="@android:color/background_light"
+            android:textColor="@color/colorPrimary"
             android:fontFamily="bold"
             android:text="Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus which was first discovered in china. The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads."
             android:layout_marginBottom="8dp"
@@ -27,7 +26,7 @@
             android:layout_width="362dp"
             android:layout_height="179dp"
             android:textSize="14sp"
-            android:textColor="@android:color/background_light"
+            android:textColor="@color/colorPrimary"
             android:fontFamily="bold"
             android:text=" This application aim  to guide and help you to maintain routine activity in this critical situation . As we dont have any vaccination availble, Some Countries has already announced lockdonw for current situation .Covid-19 precaution app will provide tips and  help to store you daiyl need in systematic way. \n"
             android:layout_marginBottom="8dp"
@@ -85,4 +84,4 @@
             android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.119"
             style="@style/Widget.MaterialComponents.Button"/>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
